@@ -3,6 +3,8 @@ png("plot3.png",
     height    = 480,
     units     = "px")
 
+par(bg=NA) 
+
 plot(data$DateTime, data$Sub_metering_1, type = "l", ann=FALSE)
 
 lines(data$DateTime, data$Sub_metering_2, type = "l", ann=FALSE, col = "red")

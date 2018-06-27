@@ -7,6 +7,8 @@ png("plot4.png",
 
 par(mfrow=c(2,2))
 
+par(bg=NA) 
+
 
 ## Place one (Global Active Power)
 
